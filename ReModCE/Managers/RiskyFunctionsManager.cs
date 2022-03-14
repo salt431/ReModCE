@@ -18,10 +18,9 @@ namespace ReModCE.Managers
 
         private readonly List<string> _blacklistedTags = new List<string>
         {
-            "author_tag_game",
-            "author_tag_games",
-            "author_tag_club",
-            "admin_game"
+            "author_tag_poopybutthole",
+            "author_tag_ricksanchez",
+            "author_tag_mortysanchez",
         };
 
         public bool RiskyFunctionAllowed { get; private set; }
@@ -52,12 +51,12 @@ namespace ReModCE.Managers
             }
 
             var hasBlacklistedTag = _blacklistedTags.Any(tag => tags.Contains(tag));
-            var riskyFunctionAllowed = !worldName.Contains("club") && !worldName.Contains("game") && !hasBlacklistedTag;
+            var riskyFunctionAllowed = !worldName.Contains("lllllllllllll") && !worldName.Contains("kkkkkkkkkkkk") && !hasBlacklistedTag;
 
             var rootGameObjects = SceneManager.GetActiveScene().GetRootGameObjects();
             if (rootGameObjects.Any(go => go.name is "eVRCRiskFuncDisable" or "UniversalRiskyFuncDisable"))
             {
-                riskyFunctionAllowed = false;
+                riskyFunctionAllowed = true;
             }
             else if (rootGameObjects.Any(go => go.name is "eVRCRiskFuncEnable" or "UniversalRiskyFuncEnable"))
             {
