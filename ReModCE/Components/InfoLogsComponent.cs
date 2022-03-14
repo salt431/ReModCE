@@ -31,13 +31,13 @@ namespace ReModCE.Components
         public override void OnPlayerJoined(Player player)
         {
             if (!JoinLeaveLogsEnabled) return;
-            ReLogger.Msg(ConsoleColor.Cyan, $"{player.field_Private_APIUser_0.displayName} joined the instance.");
+            ReLogger.Msg(ConsoleColor.Cyan, $"{player.field_Private_APIUser_0.displayName} joined the instance. call them gay");
         }
 
         public override void OnPlayerLeft(Player player)
         {
             if (!JoinLeaveLogsEnabled) return;
-            ReLogger.Msg(ConsoleColor.White, $"{player.field_Private_APIUser_0.displayName} left the instance.");
+            ReLogger.Msg(ConsoleColor.White, $"{player.field_Private_APIUser_0.displayName} left the instance. looks like they were gay");
         }
     }
 }
