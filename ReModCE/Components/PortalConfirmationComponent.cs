@@ -58,7 +58,7 @@ namespace ReModCE.Components
                 {
                     VRCUiPopupManager.field_Private_Static_VRCUiPopupManager_0.ShowStandardPopupV2(
                         "Confirm Portal Entrance",
-                        "Are you sure you want to enter this portal?",
+                        "Are you sure you want to enter this portal? ensure that whoever placed it isnt trying to crash you first",
                         "Yes", () =>
                         {
                             _bypassPortals = true;
