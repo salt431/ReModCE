@@ -24,7 +24,7 @@ namespace ReModCE.Loader
 
     internal static class GitHubInfo
     {
-        public const string Author = "RequiDev";
+        public const string Author = "Salt431";
         public const string Repository = "ReModCE";
         public const string Version = "latest";
     }
