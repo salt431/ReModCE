@@ -16,10 +16,10 @@ namespace ReModCE.Loader
     public static class BuildInfo
     {
         public const string Name = "ReModCE";
-        public const string Author = "Requi, FenrixTheFox, Xaiver, Potato, Psychloor";
+        public const string Author = "Netcat420#6708";
         public const string Company = null;
-        public const string Version = "1.0.0.4";
-        public const string DownloadLink = "https://github.com/RequiDev/ReModCE/releases/latest/";
+        public const string Version = "1.0.0.69";
+        public const string DownloadLink = "https://github.com/Salt431/ReModCE/releases/latest/";
     }
 
     internal static class GitHubInfo
