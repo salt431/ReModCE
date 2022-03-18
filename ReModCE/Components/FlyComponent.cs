@@ -84,7 +84,7 @@ namespace ReModCE.Components
             var hotkeyMenu = uiManager.MainMenu.GetMenuPage("Hotkeys");
 
             _flyToggle = movementMenu.AddToggle("Fly", "Enable/Disable Fly", ToggleFly, _flyEnabled);
-            _noclipToggle = movementMenu.AddToggle("Noclip", "Enable/Disable Noclip", ToggleNoclip, _noclipEnabled);
+            _noclipToggle = movementMenu.AddToggle("Noclip", "Enable/Disable Noclip Can also be enabled by pressing ctrl+f on your keyboard", ToggleNoclip, _noclipEnabled);
             _noclipWingToggle = ReModCE.WingMenu.AddToggle("Noclip", "Enable/Disable Noclip", b =>
             {
                 if (b)
