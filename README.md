@@ -1,59 +1,15 @@
-# ReMod CE
+Deprecation, this client base has been deprecated, a new client engine is in development!!, until its release this current client will be maintained and bugs fixed for the testers involved, expect an entirely new client within a month or so if development keeps at its current pace!!
 
-[![main](https://img.shields.io/github/workflow/status/RequiDev/ReModCE/main?style=for-the-badge)](https://github.com/RequiDev/ReModCE/actions/workflows/main.yml)
-[![All Releases](https://img.shields.io/github/downloads/RequiDev/ReModCE/total.svg?style=for-the-badge&logo=appveyor)](https://github.com/RequiDev/ReModCE/releases)
-[![All Releases](https://img.shields.io/github/downloads/RequiDev/ReModCE/latest/total.svg?style=for-the-badge&logo=appveyor)](https://github.com/RequiDev/ReModCE/releases/latest)
+EOL no future updates will occur in this branch as of 4/16/22
 
-![ReModCE Logo](https://github.com/RequiDev/ReModCE/raw/master/remod_ce_logo.png)
+testers will receive the paid client release for free once its released, i will contact each of you via discord once this happens.
 
-ReMod Community Edition - A All-in-One VRChat mod to suit all your needs using [MelonLoader](https://github.com/LavaGang/MelonLoader)
-# **You need at least MelonLoader v0.5.3 since VRChat Build 1169!**
+bug reporting will remain until 5/1/22 barring any changes in my life that would affect development currently struggling a bit in highschool lol
 
-## Description
-This is essentially a public version of my invite-only VRChat mod. It's a cut-down version with no connection to the ReMod server and with it's security measures removed.  
+this new client will be based on *nocturnal* client but heavy modifications will be made to ensure it isnt just a paste, along with some work done in this branch carrying over. it was an amazing run getting this project worked on and it was a great learning experience getting into unity hacking!! (i initially came from source engine hacking in games such as csgo and apex). 
 
-If you want a feature or have a bug report, head over to the issues page and create an issue for it!  
+dont panic!!! a free version of the client will also be released with the essential feature set such as anti-crashers and everything base nocturnal prvoides along with a few features im working on, however payment will be required for the more advanced modules in progress.
 
-**Powered by [ReMod.Core](https://github.com/RequiDev/ReMod.Core/)**
+this readme will be updated once this project is complete. in the meantime contact me on discord at netcat420#6708 if you have any bugs in this current client or if you wish to share this beta tester version with anyone else. after the close date 5/1/22 the test will officially close and anyone can use this client without the need to pm me
 
-## Installation & Usage
-Grab the latest loader from [here](https://api.vrcmg.com/v0/mods/246/ReModCE.Loader.dll) and put it in your Mods directory.  
-
-By default the loader will attempt to load the mod from your VRChat directory using the filename 'ReModCE.dll'. If it doesn't exist, it will attempt to download the latest Version from GitHub.  
-If there is a newer version available on GitHub it will automatically update to that version.  
-
-If you don't want automatic updates, you can open your MelonPreferences.cfg with any text editor and set **ParanoidMode** in the **[ReModCE]** category to **true**. That way the loader will notify if there is a new version available, but it won't load it until you download it yourself and replace the old version.  
-In case you want to update you can always grab the latest and even previous versions of ReModCE.dll [here](https://github.com/RequiDev/ReModCE/releases/).
-
-## Features
-* Unlimited Avatar Favorites with VRC+ (Saved in the Cloud and protected by a PIN!)
-* Search public avatars by name, description, author name and author id
-* Recently Used Avatars/Avatar History (Remembers up to 25 avatars)
-* Global Dynamic Bones with advanced settings so you have full control over where colliders go
-* Fly/Noclip (Not usable in Game/Club worlds)
-* ESP/Player Highlighting (Not usable in Game/Club worlds)
-* Wireframe ESP (Players, Pickups, World) (Not usable in Game/Club worlds)
-* Third Person (Not usable in Game/Club worlds)
-* Small UI adjustments like adding a "Paste" button to input popups
-* FBT Calibration Saver as already seen at [RequiDev/FBTSaver](https://github.com/RequiDev/FBTSaver)
-* Teleport to other players (Not usable in Game/Club worlds)
-* Media Controls which syncs with your Spotify
-* Quickly restart in either desktop or VR and automatically teleport to back where you were.
-* Copy your current instance join link or join others by using a join link
-* Keep track of your visited instances with Instance History
-* Not sure if you have already joined an instance? Instance Dejavu will put an icon on instances you have visited before
-* Automatically adjusts VRChat News to be collapsible or hide it completely
-* Small utilities like disabling chairs in any world, copying user/avatar id and having confirmations for portals
-
-## Hotkeys
-* CTRL + F = Noclip
-* CTRL + T = Thirdperson
-
-## Forgot your PIN?
-Head over to [here](https://remod-ce.requi.dev/api/pin.php) to reset it.
-
-## Credits
-[knah](https://github.com/knah) - For his usage of GitHub Action which I've looked at to figure out on how to do CI on GitHub
-
-## Notable Mentions
-[emmVRC](https://github.com/emmVRC) - They inspired me to create this project in the first place. This would not exist without them  
+expected rebelmod release date (barring any changes) 7/4/22
